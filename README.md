@@ -7,8 +7,11 @@ This script has been created to bypass the fact that Squid3 proxy isn't compiled
 
 **HOW TO :**
 
+Make sure nano and wget are installed, if not install with:
+
+    yum install nano && yum install wget
+
 Download and run with these lines :
-    yum install wget
     wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-rhel/master/3proxyinstaller.sh
     chmod +x 3proxyinstaller.sh
     ./3proxyinstaller.sh
