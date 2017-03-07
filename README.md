@@ -12,7 +12,7 @@ Make sure nano and wget are installed, if not install with:
     yum install nano && yum install wget
 
 Download and run with these lines :
-<<<<<<< HEAD
+
     wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-rhel/master/3proxyinstaller.sh
     chmod +x 3proxyinstaller.sh
     ./3proxyinstaller.sh
@@ -25,13 +25,13 @@ Example change line inside .proxyauth
 
     johndoe:CL:johndoepassword
 
-You can also change the port, default is 3128
+You can also change the port, default is 3128 (optional)
 
     nano /etc/3proxy/3proxy.cfg
 
 
 Once you've change the username / password you can start the proxy
-(or reboot the VPS as 3proxy has been added to the init scripts and will autostart)
+(or reboot the VPS as 3proxy will autostart)
 
     systemctl start 3proxy.service
 
@@ -41,20 +41,16 @@ For Uninstall Download, make executable and run with these lines :
 	chmod +x 3proxyuninst.sh
 	./3proxyuninst.sh
 
-**Script tested on 20.05.2016 on the following fresh VPS install distros :**
+**Script tested on March 2017 on the following fresh VPS install distros :**
 
-- Ubuntu 14.04 64bit (Vmware)
-- Scaleway C1 Arm Server (Debian Jessie)
+- CentOS 7 64bit
 
 
 **Script will run on :**
-- Debian 6
-- Debian 7
-- Debian 8
-- Ubuntu 12.10
-- Ubuntu 12.04
-- Ubuntu 14.04
-- Ubuntu 16.04
+- ??? tests needed
+
+
+Based on original 3proxy script for Debian/Ubuntu
 
 <<<<<<< HEAD
 =======
