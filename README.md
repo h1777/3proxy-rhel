@@ -19,7 +19,7 @@ Download and run with these lines :
 
 After install : CHANGE THE DEFAULT USERNAME AND PASSWORD !!!
 
-    nano /etc/3proxy/.proxyauth
+    nano /etc/.proxyauth
 
 Example change line inside .proxyauth
 
@@ -27,7 +27,7 @@ Example change line inside .proxyauth
 
 You can also change the port, default is 3128 (optional)
 
-    nano /etc/3proxy/3proxy.cfg
+    nano /etc/3proxy.cfg
 
 
 Once you've change the username / password you can start the proxy
@@ -35,11 +35,10 @@ Once you've change the username / password you can start the proxy
 
     systemctl start 3proxy.service
 
-For Uninstall Download, make executable and run with these lines :
+To stop and check proxy status, use:
 
-	wget --no-check-certificate https://raw.github.com/h1777/3proxy/master/3proxyuninst.sh
-	chmod +x 3proxyuninst.sh
-	./3proxyuninst.sh
+	systemctl stop 3proxy.service
+  systemctl status 3proxy.service
 
 **Script tested on March 2017 on the following fresh VPS install distros :**
 
