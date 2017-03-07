@@ -2,14 +2,14 @@
 ======================================================
 
 A simple script to install the lightweight proxy: 3proxy (http://3proxy.ru/) as an elite high anonymous HTTP proxy with SSL support with a few command lines.
-This script has been created to bypass the fact that Squid3 proxy isn't compiled with SSL support and is an absolute nightmare to compile in Debian right now.
+This is my modification of existing 3proxy installer for Debian/Ubuntu. I use it in fresh vps that don't have anything installed so i also install nano, wget and firewalld before.
 
 
 **HOW TO :**
 
-Make sure nano and wget are installed, if not install with:
+If nano, wget and firewalld are not installed, you can do with:
 
-    yum install nano && yum install wget
+    yum install nano && yum install wget && yum install firewalld
 
 Download and run with these lines :
 
