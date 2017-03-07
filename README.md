@@ -1,4 +1,4 @@
-3proxy install script for CentOS VPS (ver 0.8.6)
+3proxy (0.8.6) install script for CentOS 7
 ======================================================
 
 A simple script to install the lightweight proxy: 3proxy (http://3proxy.ru/) as an elite high anonymous HTTP proxy with SSL support with a few command lines.
@@ -43,6 +43,7 @@ To stop and check proxy status, use:
 **Script tested on March 2017 on the following fresh VPS install distros :**
 
 - CentOS 7 64bit
+- CentOS 6 has no firewalld so i could not get it to work. But i'm no expert, if you're comfortable with IPTABLES you can surely do this on CentOS 6
 
 
 **Script will run on :**
