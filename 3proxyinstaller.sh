@@ -1,5 +1,5 @@
 yum install epel-release && yum install 3proxy
-firewall-cmd --zone=public --add-port=1080/tcp --permanent
+firewall-cmd --zone=public --add-port=3128/tcp --permanent
 firewall-cmd --reload
 mkdir /etc/3proxy/
 cd /etc/3proxy/
