@@ -9,7 +9,7 @@ This script has been created to bypass the fact that Squid3 proxy isn't compiled
 
 Download and run with these lines :
 
-    wget --no-check-certificate https://raw.github.com/h1777/3proxy/master/3proxyinstaller.sh
+    wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-rhel/master/3proxyinstaller.sh
     chmod +x 3proxyinstaller.sh
     ./3proxyinstaller.sh
 
@@ -46,7 +46,7 @@ For Uninstall Download, make executable and run with these lines :
 **Script will run on :**
 - Debian 6
 - Debian 7
-- Debian 8 
+- Debian 8
 - Ubuntu 12.10
 - Ubuntu 12.04
 - Ubuntu 14.04
