@@ -50,8 +50,3 @@ To stop and check proxy status, use:
 
 
 Based on original 3proxy script for Debian/Ubuntu
-
-<<<<<<< HEAD
-=======
-http://barankilic.github.io/3proxy/
->>>>>>> origin/master
