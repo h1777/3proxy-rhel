@@ -38,7 +38,7 @@ Once you've change the username / password you can start the proxy
 To stop and check proxy status, use:
 
 	systemctl stop 3proxy.service
-   	systemctl status 3proxy.service
+	systemctl status 3proxy.service
 
 
 **Script tested on March 2017 on the following fresh VPS install distros :**
