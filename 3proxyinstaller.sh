@@ -1,4 +1,6 @@
 yum install epel-release && yum install 3proxy
+systemctl start firewalld
+systemctl enable firewalld.service
 firewall-cmd --zone=public --add-port=3128/tcp --permanent
 firewall-cmd --reload
 cd /etc/
