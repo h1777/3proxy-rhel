@@ -1,4 +1,4 @@
-3proxy (0.8.6) install script for CentOS 7
+3proxy (0.8.9) install script for CentOS 7
 ======================================================
 
 A simple script to install the lightweight proxy: 3proxy (http://3proxy.ru/) as an elite high anonymous HTTP proxy with SSL support with a few command lines.
