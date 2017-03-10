@@ -13,13 +13,13 @@ If nano, wget and firewalld are not installed, you can do with:
 
 Download and run with these lines :
 
-    wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-rhel/master/3proxyinstaller.sh
+    wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-rhel/0.8.9/3proxyinstaller.sh
     chmod +x 3proxyinstaller.sh
     ./3proxyinstaller.sh
 
 After install : CHANGE THE DEFAULT USERNAME AND PASSWORD !!!
 
-    nano /etc/.proxyauth
+    nano /etc/3proxy/.proxyauth
 
 Example change line inside .proxyauth
 
@@ -27,7 +27,7 @@ Example change line inside .proxyauth
 
 You can also change the port, default is 3128 (optional)
 
-    nano /etc/3proxy.cfg
+    nano /etc/3proxy/3proxy.cfg
 
 
 Once you've change the username / password you can start the proxy
