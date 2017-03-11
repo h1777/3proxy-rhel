@@ -11,6 +11,10 @@ If nano, wget and firewalld are not installed, you can do with:
 
     yum install nano && yum install wget && yum install firewalld
 
+Next need to install Developer Tools to be able to compile 3proxy:
+
+	yum group install "Development Tools"
+	
 Download and run with these lines :
 
     wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-rhel/0.8.9/3proxyinstaller.sh
@@ -31,9 +35,8 @@ You can also change the port, default is 3128 (optional)
 
 
 Once you've change the username / password you can start the proxy
-(or reboot the VPS as 3proxy will autostart)
 
-    systemctl start 3proxy.service
+    ./3proxy 3proxy.cfg
 
 To stop and check proxy status, use:
 
