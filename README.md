@@ -1,8 +1,9 @@
-3proxy (0.8.6) install script for CentOS 7
+3proxy (0.7.1) install script for CentOS 7
 ======================================================
 
 A simple script to install the lightweight proxy: 3proxy (http://3proxy.ru/) as an elite high anonymous HTTP proxy with SSL support with a few command lines.
 This is my modification of existing 3proxy installer for Debian/Ubuntu. I use it in fresh vps that don't have anything installed so i also install nano, wget and firewalld before.
+This installs the available RPM from EPEL, currently version 0.7.1
 
 
 **HOW TO :**
