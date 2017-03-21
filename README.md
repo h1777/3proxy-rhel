@@ -15,7 +15,7 @@ Next need to install Developer Tools to be able to compile 3proxy:
 
 	yum group install "Development Tools"
 	
-Download and run with these lines :
+Download and run with:
 
     wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-rhel/0.8.9/3proxyinstaller.sh
     chmod +x 3proxyinstaller.sh
