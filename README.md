@@ -14,6 +14,9 @@ Install nano, wget and gcc make:
 Note: I use Security groups in AWS to open the ports i want. For fresh vps's created elsewhere it's a good idea to install firewalld too and open the port you want:
 
 	yum install firewalld
+	systemctl start firewalld
+	firewall-cmd --zone=public --add-port=3128/tcp --permanent
+	firewall-cmd --reload
 
 Download and run with:
 
