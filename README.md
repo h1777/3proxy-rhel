@@ -1,23 +1,19 @@
-3proxy (0.8.9) install script for CentOS 7
+3proxy (0.8.11) as socks5 proxy - install script for CentOS 7 on AWS
 ======================================================
 
-A simple script to install the lightweight proxy: 3proxy (http://3proxy.ru/) as an elite high anonymous HTTP proxy with SSL support with a few command lines.
-This is my modification of existing 3proxy installer for Debian/Ubuntu. I use it in fresh vps that don't have anything installed so i also install nano, wget and firewalld before.
+A simple script to install the lightweight proxy: 3proxy (http://3proxy.ru/) as an elite high anonymous HTTP/SOCKS proxy with SSL support with a few command lines.
+This is my modification of existing 3proxy installer, I use this for fresh new EC2 instances on Amazon so I start by installing nano, wget and gcc make
 
 
 **HOW TO :**
 
-If nano, wget and firewalld are not installed, you can do with:
+Install nano, wget and gcc make:
 
-    yum install nano && yum install wget && yum install firewalld
-
-Next need to install Developer Tools to be able to compile 3proxy:
-
-	yum group install "Development Tools"
+    sudo yum install nano && yum install wget && yum -y install gcc make
 	
 Download and run with:
 
-    wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-rhel/0.8.9/3proxyinstaller.sh
+    wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-rhel/0.8.11/3proxyinstaller.sh
     chmod +x 3proxyinstaller.sh
     ./3proxyinstaller.sh
 
