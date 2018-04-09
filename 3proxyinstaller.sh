@@ -1,6 +1,6 @@
 #!/bin/sh
 sudo wget --no-check-certificate https://github.com/z3APA3A/3proxy/archive/0.8.11.tar.gz
-&& tar xzf 0.8.11.tar.gz
+tar -xvf 0.8.11.tar.gz
 cd 3proxy-0.8.11
 make -f Makefile.Linux
 cd src
