@@ -39,7 +39,7 @@ You can also change the port, default is 3128 (optional)
 
 Once you've change the username / password you can start the proxy
 
-    ./3proxy 3proxy.cfg
+    sudo ./3proxy 3proxy.cfg
 
 To stop and check proxy status, use:
 
