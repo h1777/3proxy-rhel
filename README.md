@@ -7,7 +7,7 @@ This is my modification of existing 3proxy installer, I use this for fresh new E
 
 **HOW TO :**
 
-Install nano, wget and gcc make:
+Install nano, wget and gcc make: (but also make sure you have 'tar' installed)
 
     sudo yum install nano && yum install wget && yum -y install gcc make
 	
