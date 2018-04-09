@@ -20,7 +20,7 @@ Note: I use Security groups in AWS to open the ports i want. For fresh vps's cre
 
 Download and run with:
 
-    wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-rhel/0.8.11/3proxyinstaller.sh
+    wget --no-check-certificate https://raw.githubusercontent.com/h1777/3proxy-rhel/latest/3proxyinstaller.sh
     chmod +x 3proxyinstaller.sh
     ./3proxyinstaller.sh
 
