@@ -5,6 +5,8 @@ A simple script to install the lightweight proxy: 3proxy (http://3proxy.ru/) as 
 This is my modification of existing 3proxy installer for Debian/Ubuntu. I use it in fresh vps that don't have anything installed so i also install nano, wget and firewalld before.
 This installs the available RPM from EPEL, currently version 0.7.1
 
+* To install 3proxy latest version use 'latest' branch which has instructions to download and build the latest version of 3proxy.
+
 
 **HOW TO :**
 
